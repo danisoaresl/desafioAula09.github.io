@@ -14,6 +14,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     gap: 16px;
+    margin-bottom: 20px;
 }
 
 .card{
@@ -31,6 +32,17 @@ h1{
 .tamanho{
     display: block;
     width: 20rem;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background:   rgb(148, 73, 148);
+    font-family: arial;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0 5px;
 }
 
 @media (max-width:760px){
